@@ -6,12 +6,25 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="icon" type="image/png" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="/assets/flexslider/flexslider.css">
+    <link rel="stylesheet" href="/assets/css/common.css">
+    <script src="/assets/js/fontSize.js"></script>
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/common.js"></script>
+
+    <script defer src="/assets/flexslider/jquery.flexslider.js"></script>
+<!--    <script type="text/javascript">-->
+<!--      $(window).load(function () {-->
+<!--        $('.flexslider').flexslider({-->
+<!--          animation: "slide",-->
+<!--          directionNav: false-->
+<!--        });-->
+<!--      });-->
+<!--    </script> -->
   </body>
 </html>
